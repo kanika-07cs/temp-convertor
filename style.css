@@ -1,31 +1,40 @@
 body{
-    background: linear-gradient(blue,lightgreen);
+    background-image: url("light-blue-gradient-background.avif");
+    background-size: cover;
     background-repeat: no-repeat;
     font-size: 20px;
     color: darkcyan;
 }
 #box{
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 #container{
-    background-color: rgb(133, 242, 242);
+    border-style: solid;
     border-radius: 10px;
-    background-size: cover;
-    width:500px;
+    box-shadow: 5px;
+    width:450px;
     height: 250px;
+    padding-left: 20px;
 }
 h2{
     text-align: center;
     font-size: 30px;
 }
-#submit{
-    border-radius: 5px;
-    color: darkcyan;
-    font-size: 15px;
-    padding: 5px;
+#celsius{
+    background-image: url("light-blue-gradient-background.avif");
+    float: right;
+    margin-right: 30px;
 }
-#submit:hover{
-    background-color: aquamarine;
+#fahrenheit{
+    background-image: url("light-blue-gradient-background.avif");
+    float: right;
+    margin-right: 30px;
+}
+#kelvin{
+    background-image: url("light-blue-gradient-background.avif");
+    float: right;
+    margin-right: 30px;
 }
