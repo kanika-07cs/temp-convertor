@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(blue,lightgreen);
+    background-repeat: no-repeat;
+    font-size: 20px;
+    color: darkcyan;
+}
+#box{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    background-color: rgb(133, 242, 242);
+    border-radius: 10px;
+    background-size: cover;
+    width:500px;
+    height: 250px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+#submit{
+    border-radius: 5px;
+    color: darkcyan;
+    font-size: 15px;
+    padding: 5px;
+}
+#submit:hover{
+    background-color: aquamarine;
+}
